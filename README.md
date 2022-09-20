@@ -1,11 +1,11 @@
 # IBM-Project-44220-1660723319
   ## Inventory Managment System for Retailers
-# TEAM MEMBERS :
+### TEAM MEMBERS :
               DEEPIKA.R
               NIVETHA.R.M
               SUPRIYA.V
               SIVASANKAR.M
-# PROJECT DESCRIPTION:
+#### PROJECT DESCRIPTION:
  A way in which an entity handles or manages its inventory from 
  one process to another process along with minimising intermediate 
  costs is called the Inventory management process.
