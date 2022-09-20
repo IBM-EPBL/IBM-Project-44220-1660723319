@@ -6,9 +6,24 @@
               SUPRIYA.V
               SIVASANKAR.M
 # PROJECT DESCRIPTION:
- Inventory management helps companies identify which and how much stock to order at what time. 
- It tracks inventory from purchase to the sale of goods. 
- The practice identifies and responds to trends to ensure there's 
- always enough stock to fulfill customer orders and proper warning of a shortage.
+ A way in which an entity handles or manages its inventory from 
+ one process to another process along with minimising intermediate 
+ costs is called the Inventory management process.
+ 
+ Inventory management helps companies identify which and how much 
+ stock to order at what time.  It tracks inventory from purchase to 
+ the sale of goods. The practice identifies and responds to trends 
+ to ensure there's always enough stock to fulfill 
+ customer orders and proper warning of a shortage.
+ 
+ Inventory management involves planning, coordinating
+ and controlling the acquisition, storage, handling, movement, 
+ distribution, and possible sale of raw materials, component parts 
+ and subassemblies, supplies and tools, replacement parts, and other 
+ assets that are needed to meet customer wants and needs.
+ 
+ These inventories may be held at the point of production or positioned 
+in wholesale or retail distribution centers that serve, together with 
+outbound transportation, to define the physical distribution strategy of the firm.
 
 
