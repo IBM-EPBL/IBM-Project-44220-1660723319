@@ -1,5 +1,5 @@
 # IBM-Project-44220-1660723319
-  # Inventory Managment System for Retailers
+ #### Inventory Managment System for Retailers
 ### TEAM MEMBERS :
               DEEPIKA.R
               NIVETHA.R.M
