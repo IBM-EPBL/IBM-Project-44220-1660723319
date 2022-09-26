@@ -1,30 +1,33 @@
-Smart Fashion Recommender
-A Smart Application that recommend products based on user preferences.
+# IBM-Project-44220-1660723319
+## Inventory Managment System for Retailers
+Retail inventory management is the process of ensuring you carry merchandise that shoppers want, with neither too little nor too much on hand.
 
-🔗 Links
-Tasks
+### BATCH:
+              B2-2M4E	
 
-Assignments
+### TEAM MEMBERS :
+              DEEPIKA.R
+              NIVETHA.R.M
+              SUPRIYA.V
+              SIVASANKAR.M
+#### PROJECT DESCRIPTION:
+ A way in which an entity handles or manages its inventory from 
+ one process to another process along with minimising intermediate 
+ costs is called the Inventory management process.
+ 
+ Inventory management helps companies identify which and how much 
+ stock to order at what time.  It tracks inventory from purchase to 
+ the sale of goods. The practice identifies and responds to trends 
+ to ensure there's always enough stock to fulfill 
+ customer orders and proper warning of a shortage.
+ 
+ Inventory management involves planning, coordinating
+ and controlling the acquisition, storage, handling, movement, 
+ distribution, and possible sale of raw materials, component parts 
+ and subassemblies, supplies and tools, replacement parts, and other 
+ assets that are needed to meet customer wants and needs.
+ 
+ These inventories may be held at the point of production or positioned 
+in wholesale or retail distribution centers that serve, together with 
+outbound transportation, to define the physical distribution strategy of the firm.
 
-Project Code
-
-Batch
-B5-5M1E
-
-Abhishek Tasks Assignments
-Charan Tasks Assignments
-Devendran Tasks Assignments
-Harikrishnan Tasks Assignments
-Uploading Task
-To upload your task
-
-tasks > {Your Name} > {task file}
-
-Task name format: taskNo taskName (Task No and name available in project schedule)
-
-Example: 2.1 Literature Survey
-
-Uploading Assignment
-To upload your task
-
-assignments > {Your Name} > {assignment file}
