@@ -1,5 +1,8 @@
 # IBM-Project-44220-1660723319
 ## Inventory Managment System for Retailers
+Retail inventory management is the process of ensuring you carry merchandise that shoppers want, with neither too little nor too much on hand.
+Links
+
 ### TEAM MEMBERS :
               DEEPIKA.R
               NIVETHA.R.M
