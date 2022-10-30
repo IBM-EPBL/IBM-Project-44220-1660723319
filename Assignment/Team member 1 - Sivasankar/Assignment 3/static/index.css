@@ -1,0 +1,13 @@
+body{
+    text-align: center;
+    background-color: aquamarine;
+
+}
+img{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    height: 300px;
+    width: 300px;
+}
