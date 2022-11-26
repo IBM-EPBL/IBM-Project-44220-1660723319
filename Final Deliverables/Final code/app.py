@@ -7,21 +7,21 @@ app = Flask(__name__)
 
 
 @app.route("/")
-def index():
+def logs():
     return render_template('index.html')
 
 
-@app.route('/addcustomer',methods = ['POST', 'GET'])
-def addcus():
+@app.route('/addpurchase',methods = ['POST', 'GET'])
+def addpurchase():
   if request.method == 'POST':
 
-    a = request.form['cname']
-    b = request.form['email']
-    c = request.form['phone']
-    d = request.form['country']
-    e = request.form['city']
-    f = request.form['address']
-    g= request.form['desc']
+    a = request.form['sname']
+    b = request.form['pdate']
+    c = request.form['pname']
+    d = request.form['rno']
+    e = request.form['pname']
+    # f = request.form['sku']
+    # g= request.form['minimum quantity']
     # h = request.form['description']
     # i = request.form['tax']
     # j = request.form['price']
@@ -35,34 +35,75 @@ def addcus():
     # if account:
     #   return render_template('register.html', msg="You are already a member, please login using your details")
     # else:
-    insert_sql = "INSERT INTO addcustomer VALUES (?,?,?,?,?,?,?)"
+    insert_sql = "INSERT INTO addpurchase VALUES (?,?,?,?,?)"
     prep_stmt = ibm_db.prepare(conn, insert_sql)
     ibm_db.bind_param(prep_stmt, 1, a)
     ibm_db.bind_param(prep_stmt, 2,b)
     ibm_db.bind_param(prep_stmt, 3, c)
     ibm_db.bind_param(prep_stmt, 4, d)
     ibm_db.bind_param(prep_stmt, 5, e)
-    ibm_db.bind_param(prep_stmt, 6, f)
-    ibm_db.bind_param(prep_stmt, 7, g)
-    #   ibm_db.bind_param(prep_stmt, 8, h)
-    #   ibm_db.bind_param(prep_stmt, 9, i)
-    #   ibm_db.bind_param(prep_stmt, 10, j)
-    #   ibm_db.bind_param(prep_stmt, 11 d)
+    #   ibm_db.bind_param(prep_stmt, 6, f)
+    #   ibm_db.bind_param(prep_stmt, 4, g)
+    #   ibm_db.bind_param(prep_stmt, 4, h)
+    #   ibm_db.bind_param(prep_stmt, 4, i)
+    #   ibm_db.bind_param(prep_stmt, 4, j)
+    #   ibm_db.bind_param(prep_stmt, 4, d)
+    #   ibm_db.execute(prep_stmt)
+    
+    return render_template('index.html', msg="Data saved successfuly..Please login using your details")
+
+@app.route('/addquotation',methods = ['POST', 'GET'])
+def addquotation():
+  if request.method == 'POST':
+
+    a = request.form['cname']
+    b = request.form['qdate']
+    c = request.form['rno ']
+    d = request.form['pname']
+    # e = request.form['unit']
+    # f = request.form['sku']
+    # g= request.form['minimum quantity']
+    # h = request.form['description']
+    # i = request.form['tax']
+    # j = request.form['price']
+ 
+    # sql = "SELECT * FROM register WHERE mail =?"
+    # stmt = ibm_db.prepare(conn, sql)
+    # ibm_db.bind_param(stmt,1,mail)
+    # ibm_db.execute(stmt)
+    # account = ibm_db.fetch_assoc(stmt)
+
+    # if account:
+    #   return render_template('register.html', msg="You are already a member, please login using your details")
+    # else:
+    insert_sql = "INSERT INTO addquotation VALUES (?,?,?,?)"
+    prep_stmt = ibm_db.prepare(conn, insert_sql)
+    ibm_db.bind_param(prep_stmt, 1, a)
+    ibm_db.bind_param(prep_stmt, 2,b)
+    ibm_db.bind_param(prep_stmt, 3, c)
+    ibm_db.bind_param(prep_stmt, 4, d)
+      # ibm_db.bind_param(prep_stmt, 4, e)
+      # ibm_db.bind_param(prep_stmt, 4, f)
+      # ibm_db.bind_param(prep_stmt, 4, g)
+      # ibm_db.bind_param(prep_stmt, 4, h)
+      # ibm_db.bind_param(prep_stmt, 4, i)
+      # ibm_db.bind_param(prep_stmt, 4, j)
+      # ibm_db.bind_param(prep_stmt, 4, d)
     ibm_db.execute(prep_stmt)
     
     return render_template('index.html', msg="Data saved successfuly..Please login using your details")
 
-@app.route('/newuser',methods = ['POST', 'GET'])
-def newusr():
+@app.route('/addtransfer',methods = ['POST', 'GET'])
+def addtransfer():
   if request.method == 'POST':
 
-    a = request.form['uname']
-    b = request.form['mobile']
-    c = request.form['ppic ']
-    d = request.form['email']
-    e = request.form['role']
-    f = request.form['pwd']
-    g= request.form['cpwd']
+    a = request.form['date']
+    b = request.form['from']
+    c = request.form['to ']
+    d = request.form['product name']
+    # e = request.form['unit']
+    # f = request.form['sku']
+    # g= request.form['minimum quantity']
     # h = request.form['description']
     # i = request.form['tax']
     # j = request.form['price']
@@ -76,15 +117,15 @@ def newusr():
     # if account:
     #   return render_template('register.html', msg="You are already a member, please login using your details")
     # else:
-    insert_sql = "INSERT INTO newuser VALUES (?,?,?,?,?,?,?)"
+    insert_sql = "INSERT INTO addtransfer VALUES (?,?,?,?)"
     prep_stmt = ibm_db.prepare(conn, insert_sql)
     ibm_db.bind_param(prep_stmt, 1, a)
     ibm_db.bind_param(prep_stmt, 2,b)
     ibm_db.bind_param(prep_stmt, 3, c)
     ibm_db.bind_param(prep_stmt, 4, d)
-    ibm_db.bind_param(prep_stmt, 5, e)
-    ibm_db.bind_param(prep_stmt, 6, f)
-    ibm_db.bind_param(prep_stmt, 7, g)
+      # ibm_db.bind_param(prep_stmt, 4, e)
+      # ibm_db.bind_param(prep_stmt, 4, f)
+      # ibm_db.bind_param(prep_stmt, 4, g)
       # ibm_db.bind_param(prep_stmt, 4, h)
       # ibm_db.bind_param(prep_stmt, 4, i)
       # ibm_db.bind_param(prep_stmt, 4, j)
